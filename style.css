@@ -20,6 +20,8 @@ body{
 #foto-Noelma{
   float: left;
   height: 130px;
+  padding: 10px;
+  background-color: indigo;
 }/*
 #descricao{
   position: absolute;
@@ -29,6 +31,7 @@ div{
 }
 .image-container{
   height: 150px;
+  
 }
 #nome{
   text-align: center;
