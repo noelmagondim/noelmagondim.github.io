@@ -31,13 +31,13 @@ body{
   margin-left: 30%;
   margin-top: 5%;
 }
-div{
-  border: 1px solid green;
-}
 .image-container{
   height: 150px;
   
 }
 #nome{
   text-align: center;
+}
+ul li:nth-child(odd){
+  background-color: crimson;
 }
