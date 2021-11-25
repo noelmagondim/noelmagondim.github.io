@@ -1,3 +1,6 @@
+body{
+  padding:2%;
+}
 h1{
   font-family: serif;
 }
@@ -22,10 +25,12 @@ body{
   height: 130px;
   padding: 10px;
   background-color: indigo;
-}/*
+}
 #descricao{
   position: absolute;
-}*/
+  margin-left: 30%;
+  margin-top: 5%;
+}
 div{
   border: 1px solid green;
 }
