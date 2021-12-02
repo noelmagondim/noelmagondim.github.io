@@ -25,6 +25,7 @@ body{
   height: 130px;
   padding: 10px;
   background-color: indigo;
+  border-radius: 50%;
 }
 #descricao{
   position: absolute;
