@@ -21,7 +21,10 @@ body{
 }
 
 #foto-Noelma{
-  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  //float: left;
   height: 130px;
   padding: 10px;
   background-color: indigo;
