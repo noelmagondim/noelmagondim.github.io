@@ -1,68 +1,136 @@
 body{
-  padding:2%;
-  
-}
-h1{
-  font-family: serif;
-}
-p{
-  font-family: sans-serif;
+  font-family: Architects Daughter, cursive;
 }
 body{
-  background-color: rgb(241, 227,211);  
+  background-color: pink;  
 }
-.menu ul{
-  padding:0px;
-  margin:0px;
-  background-color:#EDEDED;
+h1{
+  font-size: 40px;
+}
+.menu {
+  padding: 20px;
+  background-color: purple;
   list-style:none;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
 }
-.menu ul li { 
-  display: inline;
-}
-.menu ul li a {
+.menu a {
   padding: 2px 10px;
-  display: inline-block;
-
-  /* visual do link */
-  background-color:#EDEDED;
-  color: #333;
+  color: white;
   text-decoration: none;
-  border-bottom:3px solid #EDEDED;
+  font-weight: bold;
+  font-size: 25px; 
+  border-bottom: 2px solid white;
 }
-.hab-org{
-  font-size: 16px;
+#nome{
+  text-align: center;
+  color: purple;
 }
-.outras-hab{
-  font-size: 17px;
-}
-
 #foto-Noelma{
   display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
   height: 130px;
   padding: 10px;
-  background-color: indigo;
+  background-color: purple;
   border-radius: 50%;
 }
 #descricao{
   display: block;
   text-align: center; 
+  padding: 25px;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: rgb(192,192,192);
+  font-size: 20px;
+  border-radius: 30px;
+  color: purple;
 }
-#inf{
-  font-style: italic;
+#softskills{
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 400px;
   display: block;
-  margin-top: 3%;
+  background-color: rgb(192,192,192);
+  position: absolute;
+  border-radius: 30px;
+  color: purple;
+}
+#softskills ul li{
+  margin-right: 115px;
+  margin-left: 80px;
+  left: -20px;
+  list-style: none;
+  font-size: 20px;
+}
+#hardskills{
+  padding: 10px;
+  margin-left: 650px;
+  margin-right: 200px;
   text-align: center;
+  background-color: rgb(192,192,192);
+  color: purple;
+  margin-top: 20px;
+  float: center;
+  display: block; 
+  border-radius: 30px;
 }
-.image-container{
-  height: 150px;
-  
+#hardskills ul li{
+  position: relative;
+  list-style: none;
+  font-size: 20px;
+  margin-right: 50px;
 }
-#nome{
+.hab-org{
+  font-size: 16px;
+}
+.outras-hab{
+  font-size: 16px;
+}
+
+#github{
+  height: 40px; 
+}
+#linkedin{
+  height: 40px;
+}
+#sitesFavoritos{
   text-align: center;
+  padding: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: purple;
+  background-color: rgb(192,192,192);
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 20px;
 }
-ul li:nth-child(odd){
-  background-color: crimson;
+#sitesFavoritos a{
+  list-style: none;
+  text-decoration: none;
+  color: purple;
+  border-bottom: 2px solid purple;
+}
+#projetos{
+  text-align: center;
+  padding: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 20px;
+  color: purple;
+  background-color: rgb(192,192,192);
+  border-radius: 30px;
+}
+footer{
+  text-align: center;
+  padding: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: purple;
 }
