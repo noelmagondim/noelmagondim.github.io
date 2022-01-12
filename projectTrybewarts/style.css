@@ -1,0 +1,190 @@
+@font-face {
+  font-family: 'dum1';
+  src: url(fontes/dumbledor/dum1/dum1.ttf);
+}
+
+body {
+  background-color: rgb(226, 226, 228);
+  font-family: 'dum1';
+  background-image: url(images/estrelas\ \(1\).gif);
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  box-shadow: 3px 5px 5px rgb(68, 66, 66);
+}
+
+.trybewarts-login {
+  display: flex;
+  justify-content: end;
+  flex-grow: 1;
+  height: 30px;
+  align-self: center;
+}
+
+#email {
+  margin-right: 5px;
+  width: 110px;
+  border: white;
+  border-radius: 5px;
+  box-shadow: 3px 5px 5px rgb(68, 66, 66);
+}
+
+#senha {
+  margin-right: 5px;
+  width: 110px;
+  border: white;
+  border-radius: 5px;
+  box-shadow: 3px 5px 5px rgb(68, 66, 66);
+}
+
+#entrar {
+  width: 110px;
+  margin-right: 15px;
+  border-radius: 5px;
+  border: rgb(55, 55, 177);
+  background-color: rgb(55, 55, 177);
+  color: white;
+  box-shadow: 3px 5px 5px rgb(68, 66, 66);
+}
+
+#trybewarts-header-title {
+  display: flex;
+  flex-basis: 600px;
+  justify-content: center;
+  color: white;
+}
+
+.trybewarts-header-logo {
+  width: 60px;
+  margin-left: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  display: flex;
+  height: 500px;
+  align-self: center;
+}
+
+.name-lastname {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.email-house {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.family {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  width: 35%;
+  justify-content: center;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(97, 97, 97);
+  color: white;
+  font-weight:lighter;
+}
+
+#title-form {
+  display: flex;
+  justify-content: center;
+}
+
+#input-name {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 25px;
+  width: 300px;
+  margin-right: 5px;
+}
+
+#input-lastname {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 25px;
+  width: 300px;
+}
+
+#input-email {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 25px;
+  width: 300px;
+  margin-right: 5px;
+}
+
+#house {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  height: 28.5px;
+  width: 265px;
+  margin-left: 5px;
+}
+
+#submit-btn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 25px;
+  align-items: center;
+  border-radius: 5px;
+  border: rgb(55, 55, 177);
+  background-color: rgb(55, 55, 177);
+  color: white;
+  box-shadow: 3px 5px 5px rgb(68, 66, 66);
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.line {
+  margin: 20px;
+  border-bottom: 1px solid grey;
+}
+
+.avaliacao {
+  font-size: 20px;
+}
+
+#text-area {
+  width: 99%;
+  height: 100px;
+  border-radius: 5px;
+}
+
+#flex-container {
+  display: flex;
+  flex-direction: row;
+  border: none;
+}
